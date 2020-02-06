@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="OtpViewTheme">
+    <attr name="otpViewStyle" format="reference"/>
+  </declare-styleable>
+
+  <declare-styleable name="OtpTextView">
+    <attr name="android:textColor" />
+    <attr name="otp" format="string" />
+    <attr name="hide_otp" format="boolean" />
+    <attr name="hide_otp_drawable" format="reference" />
+    <attr name="length" format="integer" />
+    <attr name="width" format="dimension" />
+    <attr name="height" format="dimension" />
+    <attr name="box_margin" format="dimension" />
+    <attr name="box_margin_left" format="dimension" />
+    <attr name="box_margin_right" format="dimension" />
+    <attr name="box_margin_top" format="dimension" />
+    <attr name="box_margin_bottom" format="dimension" />
+    <attr name="bar_height" format="dimension" />
+    <attr name="bar_enabled" format="boolean" />
+    <attr name="otp_box_background" format="reference" />
+    <attr name="otp_box_background_active" format="reference" />
+    <attr name="otp_box_background_inactive" format="reference" />
+    <attr name="otp_box_background_success" format="reference" />
+    <attr name="otp_box_background_error" format="reference" />
+    <attr name="bar_margin" format="dimension" />
+    <attr name="bar_margin_bottom" format="dimension" />
+    <attr name="bar_margin_right" format="dimension" />
+    <attr name="bar_margin_left" format="dimension" />
+    <attr name="bar_margin_top" format="dimension" />
+    <attr name="otp_text_size" format="dimension" />
+    <attr name="bar_active_color" format="color" />
+    <attr name="bar_inactive_color" format="color" />
+    <attr name="bar_error_color" format="color" />
+    <attr name="bar_success_color" format="color" />
+    <attr name="text_typeface" format="string" />
+  </declare-styleable>
+  <declare-styleable name="CircleImageView">
+    <attr name="civ_border_width" format="dimension"/>
+    <attr name="civ_border_color" format="color"/>
+    <attr name="civ_border_overlay" format="boolean"/>
+    <attr name="civ_circle_background_color" format="color"/>
+  </declare-styleable>
+  <declare-styleable name="Form">
+    <attr name="showErrors" format="boolean"/>
+  </declare-styleable>
+  <declare-styleable name="InputValidator">
+    <attr name="required" format="boolean"/>
+    <attr name="validator" format="enum">
+      <enum name="isEmail" value="0"/>
+      <enum name="isPhoneNumber" value="1"/>
+      <enum name="isNumeric" value="2"/>
+      <enum name="isUrl" value="3"/>
+      <enum name="isIP" value="4"/>
+    </attr>
+    <attr name="minLength" format="integer"/>
+    <attr name="maxLength" format="integer"/>
+    <attr name="minValue" format="integer"/>
+    <attr name="maxValue" format="integer"/>
+    <attr name="regex" format="string"/>
+    <attr name="identicalAs" format="reference"/>
+    <attr name="errorMessage" format="string"/>
+    <attr name="requiredMessage" format="string"/>
+  </declare-styleable>
+
+
+  <attr name="halfVisibleItemCount" format="integer"/>
+  <attr name="itemTextSize" format="dimension"/>
+  <attr name="itemMaximumWidthText" format="string"/>
+  <attr name="itemTextColor" format="color"/>
+  <attr name="textGradual" format="boolean"/>
+  <attr name="selectedTextColor" format="color"/>
+  <attr name="selectedTextSize" format="dimension"/>
+  <attr name="currentItemPosition" format="integer"/>
+  <attr name="itemWidthSpace" format="dimension"/>
+  <attr name="itemHeightSpace" format="dimension"/>
+  <attr name="zoomInSelectedItem" format="boolean"/>
+  <attr name="wheelCyclic" format="boolean"/>
+  <attr name="wheelCurtain" format="boolean"/>
+  <attr name="wheelCurtainColor" format="color"/>
+  <attr name="wheelCurtainBorder" format="boolean"/>
+  <attr name="wheelCurtainBorderColor" format="color"/>
+  <attr name="indicatorText" format="string"/>
+  <attr name="indicatorTextSize" format="dimension"/>
+  <attr name="indicatorTextColor" format="color"/>
+  <declare-styleable name="WheelPicker">
+    <attr name="halfVisibleItemCount"/>
+    <attr name="itemTextSize"/>
+    <attr name="itemMaximumWidthText"/>
+    <attr name="itemTextColor"/>
+    <attr name="textGradual"/>
+    <attr name="selectedTextColor"/>
+    <attr name="selectedTextSize"/>
+    <attr name="currentItemPosition"/>
+    <attr name="itemWidthSpace"/>
+    <attr name="itemHeightSpace"/>
+    <attr name="zoomInSelectedItem"/>
+    <attr name="wheelCyclic"/>
+    <attr name="wheelCurtain"/>
+    <attr name="wheelCurtainColor"/>
+    <attr name="wheelCurtainBorder" />
+    <attr name="wheelCurtainBorderColor"/>
+    <attr name="indicatorText"/>
+    <attr name="indicatorTextSize"/>
+    <attr name="indicatorTextColor"/>
+  </declare-styleable>
+
+  <declare-styleable name="YearPicker">
+    <attr name="startYear" format="integer"/>
+    <attr name="endYear" format="integer"/>
+  </declare-styleable>
+
+  <declare-styleable name="MonthPicker">
+  </declare-styleable>
+
+  <declare-styleable name="DatePicker">
+    <attr name="halfVisibleItemCount"/>
+    <attr name="itemTextSize"/>
+    <attr name="itemTextColor"/>
+    <attr name="textGradual"/>
+    <attr name="selectedTextColor"/>
+    <attr name="selectedTextSize"/>
+    <attr name="itemWidthSpace"/>
+    <attr name="itemHeightSpace"/>
+    <attr name="zoomInSelectedItem"/>
+    <attr name="wheelCyclic"/>
+    <attr name="wheelCurtain"/>
+    <attr name="wheelCurtainColor"/>
+    <attr name="wheelCurtainBorder"/>
+    <attr name="wheelCurtainBorderColor"/>
+  </declare-styleable>
+
+  <declare-styleable name="HourAndMinutePicker">
+    <attr name="halfVisibleItemCount"/>
+    <attr name="itemTextSize"/>
+    <attr name="itemTextColor"/>
+    <attr name="textGradual"/>
+    <attr name="selectedTextColor"/>
+    <attr name="selectedTextSize"/>
+    <attr name="itemWidthSpace"/>
+    <attr name="itemHeightSpace"/>
+    <attr name="zoomInSelectedItem"/>
+    <attr name="wheelCyclic"/>
+    <attr name="wheelCurtain"/>
+    <attr name="wheelCurtainColor"/>
+    <attr name="wheelCurtainBorder"/>
+    <attr name="wheelCurtainBorderColor"/>
+  </declare-styleable>
+
+
+  <declare-styleable name="NiceBottomBar">
+    <attr name="menu" format="reference" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="indicatorColor" format="color" />
+    <attr name="indicatorWidth" format="dimension" />
+    <attr name="indicatorEnabled" format="boolean" />
+    <attr name="textColor" format="color" />
+    <attr name="itemFontFamily" format="reference" />
+    <attr name="textColorActive" format="color" />
+    <attr name="textSize" format="dimension" />
+    <attr name="iconSize" format="dimension" />
+    <attr name="iconMargin" format="dimension" />
+    <attr name="activeItem" format="integer" />
+    <attr name="indicatorInterpolator" format="enum">
+      <enum name="accelerate" value="0"/>
+      <enum name="decelerate" value="1"/>
+      <enum name="accelerateDecelerate" value="2"/>
+      <enum name="anticipate" value="3"/>
+      <enum name="anticipateOvershoot" value="4"/>
+      <enum name="linear" value="5"/>
+      <enum name="overshoot" value="6"/>
+    </attr>
+    <attr name="badgeColor" format="color" />
+  </declare-styleable>
+
+
+  <declare-styleable name="RoundedImageView">
+    <attr name="riv_corner_radius" format="dimension" />
+    <attr name="riv_corner_radius_top_left" format="dimension" />
+    <attr name="riv_corner_radius_top_right" format="dimension" />
+    <attr name="riv_corner_radius_bottom_left" format="dimension" />
+    <attr name="riv_corner_radius_bottom_right" format="dimension" />
+    <attr name="riv_border_width" format="dimension" />
+    <attr name="riv_border_color" format="color" />
+    <attr name="riv_mutate_background" format="boolean" />
+    <attr name="riv_oval" format="boolean" />
+    <attr name="android:scaleType" />
+    <attr name="riv_tile_mode">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_x">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_y">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+  </declare-styleable>
+
+
+  <declare-styleable name="CircleProgressBar">
+    <attr name="mlpb_inner_radius" format="dimension"/>
+    <attr name="mlpb_background_color" format="color"/>
+    <attr name="mlpb_progress_color" format="color"/>
+    <attr name="mlpb_progress_stoke_width" format="dimension"/>
+    <attr name="mlpb_show_arrow" format="boolean"/>
+    <attr name="mlpb_enable_circle_background" format="boolean"/>
+    <attr name="mlpb_arrow_width" format="dimension"/>
+    <attr name="mlpb_arrow_height" format="dimension"/>
+
+    <attr name="mlpb_progress" format="integer"/>
+    <attr name="mlpb_max" format="integer"/>
+
+
+    <attr name="mlpb_progress_text_size" format="dimension"/>
+    <attr name="mlpb_progress_text_color" format="color"/>
+
+    <!--<anamename="mlpb_progress_text_offset" format="dimension"/>-->
+
+    <attr name="mlpb_progress_text_visibility" format="enum">
+      <enum name="visible" value="0"/>
+      <enum name="invisible" value="1"/>
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="StoryView">
+    <attr name="storyImageRadius" format="dimension"/>
+    <attr name="storyItemIndicatorWidth" format="dimension"/>
+    <attr name="spaceBetweenImageAndIndicator" format="dimension"/>
+    <attr name="pendingIndicatorColor" format="color"/>
+    <attr name="visitedIndicatorColor" format="color"/>
+  </declare-styleable>
+  <declare-styleable name="StoryPlayerProgressView">
+    <attr name="progressBarHeight" format="dimension"/>
+    <attr name="gapBetweenProgressBar" format="dimension"/>
+    <attr name="progressBarPrimaryColor" format="color"/>
+    <attr name="progressBarSecondaryColor" format="color"/>
+    <attr name="singleStoryDisplayTime" format="integer"/>
+  </declare-styleable>
+
+  <declare-styleable name="StickerView">
+    <attr name="showIcons" format="boolean" />
+    <attr name="showBorder" format="boolean" />
+    <attr name="bringToFrontCurrentSticker" format="boolean" />
+    <attr name="borderColor" format="color"/>
+    <attr name="borderAlpha" format="integer"/>
+  </declare-styleable>
+
+  <declare-styleable name="DiscreteScrollView">
+    <attr name="dsv_orientation" format="enum">
+      <enum name="horizontal" value="0" />
+      <enum name="vertical" value="1" />
+    </attr>
+  </declare-styleable>
+
+<!--  <declare-styleable name="SpannedGridLayoutManager">-->
+<!--    <attr name="android:orientation" />-->
+<!--    <attr name="spanCount" />-->
+<!--    <attr name="aspectRatio" format="string" />-->
+<!--  </declare-styleable>-->
+
+  <declare-styleable name="FABsMenuLayout">
+    <attr name="fabs_menu_overlayColor" format="color"/>
+    <attr name="fabs_menu_clickableOverlay" format="boolean"/>
+  </declare-styleable>
+
+  <declare-styleable name="TitleFAB">
+    <attr name="fab_title" format="string"/>
+    <attr name="fab_title_backgroundColor" format="color"/>
+    <attr name="fab_title_textColor" format="color"/>
+    <attr name="fab_title_textPadding" format="dimension"/>
+    <attr name="fab_title_cornerRadius" format="dimension"/>
+    <attr name="fab_enableTitleClick" format="boolean"/>
+  </declare-styleable>
+
+  <declare-styleable name="FABsMenu">
+    <attr name="fab_menuMargins" format="dimension"/>
+    <attr name="fab_menuTopMargin" format="dimension"/>
+    <attr name="fab_menuBottomMargin" format="dimension"/>
+    <attr name="fab_menuRightMargin" format="dimension"/>
+    <attr name="fab_menuLeftMargin" format="dimension"/>
+
+    <attr name="fab_moreButtonRippleColor" format="color"/>
+    <attr name="fab_moreButtonBackgroundColor" format="color"/>
+
+    <attr name="fab_moreButtonSize" format="enum">
+      <enum name="normal" value="0"/>
+      <enum name="mini" value="1"/>
+    </attr>
+
+    <attr name="fab_moreButtonPlusIcon" format="reference"/>
+
+    <attr name="fab_labelsPosition" format="enum">
+      <enum name="left" value="0"/>
+      <enum name="right" value="1"/>
+    </attr>
+
+    <attr name="fab_expandDirection" format="enum">
+      <enum name="up" value="0"/>
+      <enum name="down" value="1"/>
+      <enum name="left" value="2"/>
+      <enum name="right" value="3"/>
+    </attr>
+
+    
+  </declare-styleable>
+  <declare-styleable name="AspectRatioImageViewView">
+    <attr name="aspectRatios" format="float" />
+    <attr name="aspectRatioEnabled" format="boolean" />
+    <attr name="dominantMeasurement">
+      <enum name="width" value="0" />
+      <enum name="height" value="1" />
+    </attr>
+  </declare-styleable>
+
+
+  <declare-styleable name="SpannableGridLayoutManager">
+    <attr name="android:orientation" />
+    <attr name="spanCount" />
+    <attr name="aspectRatio" format="string" />
+  </declare-styleable>
+
+</resources>
